@@ -39,7 +39,7 @@ public class ClienteController implements Serializable {
 		}
 		return listarCliente;
 	}
-
+	//Metodo para buscar por id
 	@GetMapping("/clientes/{id}")
 	public Cliente buscarXid(@PathVariable Integer id) {
 		Cliente cliente = null;
